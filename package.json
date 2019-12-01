@@ -1,0 +1,24 @@
+{
+  "name": "sharedb-ioredis-pubsub",
+  "version": "1.0.0",
+  "description": "Redis pub/sub adapter adapter for ShareDB",
+  "main": "index.js",
+  "dependencies": {
+    "async": "^3.1.0",
+    "ioredis": "^4.14.1",
+    "sharedb": "^1.0.0"
+  },
+  "devDependencies": {
+    "coveralls": "^3.0.9",
+    "expect.js": "^0.3.1",
+    "istanbul": "^0.4.2",
+    "mocha": "^6.2.2"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/mocha",
+    "test-cover": "node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha"
+  },
+  "repository": "git://github.com/share/sharedb-redis-pubsub.git",
+  "author": "Nate Smith",
+  "license": "MIT"
+}
